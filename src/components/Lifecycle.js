@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Lifeycle extends React.Component {
+class Lifecycle extends React.Component {
     constructor(props) {
         super(props);
         console.log('constructor()');
@@ -42,3 +42,5 @@ class Lifeycle extends React.Component {
         })
     }
 }
+
+export default Lifecycle
